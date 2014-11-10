@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 10 ноя 2014 09:55:00
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 10 ноя 2014 14:19:04
 
 BeginCmp
 TimeStamp = /545FD36E;
@@ -239,6 +239,41 @@ IdModule  = c_tant_A;
 EndCmp
 
 BeginCmp
+TimeStamp = /5460A9DD;
+Reference = C35;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460A9CB;
+Reference = C36;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460A9AD;
+Reference = C37;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460A9EF;
+Reference = C38;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460AA01;
+Reference = C39;
+ValeurCmp = 100n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /545FD9E0;
 Reference = D1;
 ValeurCmp = 1N5819;
@@ -320,41 +355,6 @@ TimeStamp = /545F9960;
 Reference = L3;
 ValeurCmp = 10uH;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FCC8F;
-Reference = M1;
-ValeurCmp = POLOLU;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FD52C;
-Reference = M2;
-ValeurCmp = POLOLU;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FD6FA;
-Reference = M3;
-ValeurCmp = POLOLU;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FD738;
-Reference = M4;
-ValeurCmp = POLOLU;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FDA9D;
-Reference = M5;
-ValeurCmp = POLOLU;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -894,6 +894,41 @@ TimeStamp = /545F908E;
 Reference = U3;
 ValeurCmp = 24C512;
 IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54609719;
+Reference = U4;
+ValeurCmp = POLOLU_A4988;
+IdModule  = SWDIP8_.6W;
+EndCmp
+
+BeginCmp
+TimeStamp = /54609979;
+Reference = U5;
+ValeurCmp = POLOLU_A4988;
+IdModule  = SWDIP8_.6W;
+EndCmp
+
+BeginCmp
+TimeStamp = /54609988;
+Reference = U6;
+ValeurCmp = POLOLU_A4988;
+IdModule  = SWDIP8_.6W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460A04E;
+Reference = U7;
+ValeurCmp = POLOLU_A4988;
+IdModule  = SWDIP8_.6W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460A05D;
+Reference = U8;
+ValeurCmp = POLOLU_A4988;
+IdModule  = SWDIP8_.6W;
 EndCmp
 
 EndListe
