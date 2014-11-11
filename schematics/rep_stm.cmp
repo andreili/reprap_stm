@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 10 ноя 2014 14:19:04
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Вт 11 ноя 2014 16:27:53
 
 BeginCmp
 TimeStamp = /545FD36E;
@@ -361,7 +361,7 @@ BeginCmp
 TimeStamp = /5460302E;
 Reference = P1;
 ValeurCmp = POWER;
-IdModule  = ;
+IdModule  = bornier4;
 EndCmp
 
 BeginCmp
@@ -929,6 +929,13 @@ TimeStamp = /5460A05D;
 Reference = U8;
 ValeurCmp = POLOLU_A4988;
 IdModule  = SWDIP8_.6W;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FA8F7;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = Crystal_7x5mm;
 EndCmp
 
 EndListe

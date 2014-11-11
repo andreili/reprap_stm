@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "RepRap STM32 Ver."
-Date "10 nov 2014"
+Date "11 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3209,7 +3209,7 @@ Connection ~ 10900 2550
 Wire Wire Line
 	11750 2300 11750 2150
 Wire Wire Line
-	11750 2150 11800 2150
+	11700 2150 11800 2150
 Wire Wire Line
 	11800 2250 11750 2250
 Connection ~ 11750 2250
@@ -3242,7 +3242,7 @@ Connection ~ 10900 1300
 Wire Wire Line
 	11750 1050 11750 900 
 Wire Wire Line
-	11750 900  11800 900 
+	11700 900  11800 900 
 Wire Wire Line
 	11800 1000 11750 1000
 Connection ~ 11750 1000
@@ -3275,7 +3275,7 @@ Connection ~ 14500 2600
 Wire Wire Line
 	15350 2350 15350 2200
 Wire Wire Line
-	15350 2200 15400 2200
+	15300 2200 15400 2200
 Wire Wire Line
 	15400 2300 15350 2300
 Connection ~ 15350 2300
@@ -3308,7 +3308,7 @@ Connection ~ 14500 1350
 Wire Wire Line
 	15350 1100 15350 950 
 Wire Wire Line
-	15350 950  15400 950 
+	15300 950  15400 950 
 Wire Wire Line
 	15400 1050 15350 1050
 Connection ~ 15350 1050
@@ -3925,12 +3925,16 @@ F 3 "" H 7950 5650 60  0000 C CNN
 	1    7950 5650
 	0    1    1    0   
 $EndComp
-Text Label 11300 850  0    60   ~ 0
+Text GLabel 11700 900  0    60   Input ~ 0
 PWM1OUT
-Text Label 11300 2100 0    60   ~ 0
+Text GLabel 11700 2150 0    60   Input ~ 0
 PWM2OUT
-Text Label 14950 850  0    60   ~ 0
+Text GLabel 15300 950  0    60   Input ~ 0
 PWM3OUT
-Text Label 14850 2150 0    60   ~ 0
+Text GLabel 15300 2200 0    60   Input ~ 0
 PWM4OUT
+Connection ~ 15350 2200
+Connection ~ 15350 950 
+Connection ~ 11750 2150
+Connection ~ 11750 900 
 $EndSCHEMATC

@@ -3931,6 +3931,6 @@ Text Label 11300 2100 0    60   ~ 0
 PWM2OUT
 Text Label 14950 850  0    60   ~ 0
 PWM3OUT
-Text Label 14950 2150 0    60   ~ 0
+Text Label 14850 2150 0    60   ~ 0
 PWM4OUT
 $EndSCHEMATC
