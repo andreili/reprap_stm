@@ -3,7 +3,7 @@
 
 int main()
 {
-	SystemInit();
+	init_core();
 	while (1)
 	{
 	}

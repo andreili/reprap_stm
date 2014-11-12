@@ -3,7 +3,7 @@
 
 #include "stm32f10x.h"
 
-void SystemInit(void);
-void SetSysClockTo72(void);
+void init_core(void);
+void init_clock(void);
 
 #endif

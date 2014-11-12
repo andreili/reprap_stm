@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Вт 11 ноя 2014 16:27:53
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 12 ноя 2014 08:34:03
 
 BeginCmp
 TimeStamp = /545FD36E;
@@ -334,6 +334,13 @@ TimeStamp = /545F9128;
 Reference = JP4;
 ValeurCmp = A0;
 IdModule  = S_JUMPER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5462F7A6;
+Reference = K1;
+ValeurCmp = UART;
+IdModule  = pin_socket_3;
 EndCmp
 
 BeginCmp

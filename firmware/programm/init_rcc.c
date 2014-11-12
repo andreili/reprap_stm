@@ -1,6 +1,6 @@
 #include "init.h"
 
-void SetSysClockTo72(void)
+void init_clock(void)
 {
   __IO uint32_t StartUpCounter = 0, HSEStatus = 0;
   
